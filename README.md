@@ -25,9 +25,11 @@ TRACKER
  
 FEATURES
 
+ - The tracker allows for a player to have a rough estimate of when an enemy team will have an ubercharge compared to their own medic's
+ charge. 
  - The tracker has a representation of the game clock, so players can run mock examples to come up with mental timestamps of when they 
  should look out for certain things.
- - The tracker has an easy to read interface of overal advantage.
+ - The tracker has an easy to read interface of overall advantage.
  - When an uber is used, or a medic RESPAWNS, the reset button can be clicked to instantly zero out a charge.
  - A kritz light is implemented as a reminder to players that while it might appear they have an advantage, the "kritzkrieg medigun" item
  is a tricky threat that has the potential to surprise a team with a premature ubercharge.
