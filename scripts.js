@@ -26,14 +26,28 @@ function init () {
     /////////////////////////////    SYNC INPUTS    ////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
 
-    var range =$("#blueChargeVal").get(0);
-    var field = $("#blueCharge").get(0);
-    var rangeTwo = $("#redChargeVal").get(0);
-    var fieldTwo = $("#redCharge").get(0);
+    var range =$("#blueChargeVal");
+    var field = $("#blueCharge");
+    var rangeTwo = $("#redChargeVal");
+    var fieldTwo = $("#redCharge");
 
     // these bindings tie the range value to numeric inputs
     // so if one changes the other changes the corresponding amount
-    range.addEventListener('input', function (e) {
+
+    range.on('input', function (e) {
+        field.val(e.target.value);
+    });
+    field.on('input', function (e) {
+        range.val(e.target.value);
+    });
+    rangeTwo.on('input', function (e) {
+        fieldTwo.val(e.target.value);
+    });
+    fieldTwo.on('input', function (e) {
+        rangeTwo.val(e.target.value);
+    });
+
+    /*range.addEventListener('input', function (e) {
         field.value = e.target.value;
     });
     field.addEventListener('input', function (e) {
@@ -44,7 +58,7 @@ function init () {
     });
     fieldTwo.addEventListener('input', function (e) {
         rangeTwo.value = e.target.value;
-    });
+    });*/
 
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////    RESET BUTTON    ////////////////////////////
