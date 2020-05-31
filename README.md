@@ -11,15 +11,20 @@ javascript.
 The final added page is an "uber tracker", which is a tool/calculator useful for players at a high level who play TF2.
 
 A summary of what an "uber tracker" does, and what features it has:
+
 UBER
  - In the game, each team may or may not have a medic
  - the medic has a powerful ability to make his teammates totally invulnerable for a brief period by activating his "ubercharge"
  - the medic, as he heals teammates, slowly builds this charge from 0%, up to 100%, and only at 100% can he deploy the charge
+ 
 TRACKER
+
  - It is advantageous for one team to attack the other while one has a fully charged "uber" and the enemy does not
  - It can be predicted when a medic will have an uber, because it takes at minimum 40 seconds to reach 100% from 0%.
  - The difference of between one medic's percent charge and another medic's charge is referred to as "advantage"
+ 
 FEATURES
+
  - The tracker has a representation of the game clock, so players can run mock examples to come up with mental timestamps of when they 
  should look out for certain things.
  - The tracker has an easy to read interface of overal advantage.
