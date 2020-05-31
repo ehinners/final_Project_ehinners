@@ -344,7 +344,7 @@ main
     display: block;
     padding-left: 11em;
     float:center;
-    background:url("sidebar.jpg") left, rgba(255, 245, 203, 0.91) right;
+    background:url("images/sidebar.jpg") left, rgba(255, 245, 203, 0.91) right;
     background-repeat:repeat-y;
     
 }
@@ -805,7 +805,7 @@ figcaption
     } 
     main
     {
-        background:url("mobile.jpg") left, rgba(255, 245, 203, 0.91) right;
+        background:url("images/mobile.jpg") left, rgba(255, 245, 203, 0.91) right;
         background-repeat:repeat-y;
         padding-left: 7em;
     }
