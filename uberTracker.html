@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="tf2.css" rel="stylesheet">
+    <meta name="viewport">
+    <title>TF2SplashPool::Scout</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<style>
+
+    html {
+        background: url("homebg.png") left, linear-gradient(rgb(7, 7 ,7), rgb(21,20,18), rgb(7, 7 ,7)), right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: rgb(7, 7 ,7);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+    <div id="wrapper">
+        <header>
+        <nav id="sidebar">
+            <ul> 
+                <li><a HREF = "scout.html">     Scout   </a></li>
+                <li><a HREF = "soldier.html">   Soldier </a></li>
+                <li><a HREF = "pyro.html">      Pyro    </a></li>
+                <li><a HREF = "demo.html">      Demo    </a></li>
+                <li><a HREF = "heavy.html">     Heavy   </a></li>
+                <li><a HREF = "engie.html">     Engineer</a></li>
+                <li><a HREF = "medic.html">     Medic   </a></li>
+                <li><a HREF = "sniper.html">    Sniper  </a></li>
+                <li><a HREF = "spy.html">       Spy     </a></li>
+                <li><a HREF = "tips.html">      Tips    </a></li>
+                <li><a href="uberTracker.html">Uber Tracker</a></li>
+            </ul>
+        </nav>
+        <nav id="mobile">
+            <ul> 
+                <li><a HREF = "scout.html"><img src="scouticon.png" width="90" height="90"></a></li>
+                <li><a HREF = "soldier.html"><img src="soldiericon.png" width="90" height="90"></a></li>
+                <li><a HREF = "pyro.html"><img src="pyroicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "demo.html"><img src="demoicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "heavy.html"><img src="heavyicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "engie.html"><img src="engieicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "medic.html"><img src="medicicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "sniper.html"><img src="snipericon.png" width="90" height="90"></a></li>
+                <li><a HREF = "spy.html"><img src="spyicon.png" width="90" height="90"></a></li>
+                <li><a HREF = "tips.html"><img src="Random_class.png" width="90" height="90"></a></li>
+            </ul>
+        </nav>
+        <div>
+            
+                <figure id="photomin">
+                    <figcaption id="mincaption">Tips Page</figcaption>
+                    <a  class="responsiveImageLink" HREF="tips.html"><img id="photomin" src="mercsport.png" alt="Entourage Of classes" width="109" height="auto"; ></a>
+                    <br>
+                    <figcaption id="mincaption">2019 Valve&copy;</figcaption>
+                </figure>
+            
+        <figure id="floatright">
+            <figcaption>Tips Page</figcaption>
+            <a HREF="tips.html"><img id="floatright" src="TF2_Mercs.png" alt="Entourage Of classes" width="350" height="auto"; ></a>
+            <br>
+            <figcaption>Image Courtesy of Valve Corporation </figcaption>
+        </figure>
+            
+        </div>
+            
+            
+        
+        <div>
+            
+        <figure>
+            <figcaption id="homebutton">Home Page</figcaption>
+            <a  class="responsiveImageLink" HREF = "index.html"><img  id="fixer" src="logo.png" alt="TF2 Competitive Logo" width="175" height="175"; ></a>
+            <h1 id="max">Team Fortress 2</h1>
+            <h1 id="min">Team<br id="min">Fortress 2</h1>
+            <h1 id="tiny">TF2</h1>
+            <figcaption id="homebutton">Image Courtesy of Valve Corporation</figcaption>   
+            
+        </figure>
+        </div>
+    </header>
+
+    <main>
+        <!--
+        //////////////////////////////////////////// CONTENT ////////////////////////////////////////////
+        -->
+        <div><br><h3 id="trackerToggle">Uber Tracker</h3></div>
+        <div id="forToggling">
+            <p>
+                An uber tracker is a timer that helps a player track, and predict, when medics will have uber charge. This tool also
+                indicates which team has an uber ADVANTAGE, and how much advantage that team has. To learn more about medic, or what uber is, visit the <a href="medic.html">Medic page</a>.
+                This app should default to common values found on most 5 capture point maps, simply press start when the round begins.
+            </p>
+            <h3 id="howToUse">How to Use</h3>
+            <p id="directions">
+                The user can set initial ubercharge values, either with the sliders, or the numerical fields, and
+                can initialize a representation of the gameclock. The reset button sets an individual charge to zero.
+                <b>NOTE:</b> Because spawn times vary wildly depending on gamestate, gamemode, AND map, it's impossible
+                for this calculator to delay uber built while a medic is dead. To utilize the reset button correctly,
+                <b>press it when the enemy RESPANWS.</b>
+                This reset button can be used WHILE the timer is running, OR paused. The start/stop button will either
+                pause or start the running of the timer.
+                <br><br>
+                The kritz indicators, the percentage field on the right, and the arrows are un-interactable. The charge will always
+                increase at the rate of the stock medigun, but at the point where if a medic would have full charge IF they
+                were using kritzkrieg, the kritz indicator will light up. This is because the kritzkrieg charges faster than
+                a standard medigun. To learn more about the kritzkrieg, visit the <a href="medic.html#unlock">"weapons to use"</a> section of the medic page.
+                <br><br>
+                The percentage indicator shows the DIFFERENCE between the two charge levels, and the arrows indicate which team has the larger charge.
+            </p>
+        </div>
+        <div id="trackerMasterContainer">
+            <div id="trackerContainerBlue">
+                <div id="timerRow">
+                    <label><input class="currentPercent" id="wowPls" type="number" name="roundMinute" min="0" max="60" type="range" value="10"></label>
+                    <label><input class="currentPercent" id="wowPlsTwo"  type="number" name="roundSecond" min="0" max="60" type="range" value="00"></label>
+                </div>
+                <h4 class="kritzIndicator" id="kritzBlue">KRITZ</h4>
+                <div value="blue" class="colorValue" id="colorValueBlue">
+                <label><input id="blueChargeVal" class="currentPercent" class="watchForChange" type="number" name="blueCharge" min="0" max="100" value="0"></label><!-- blue NUMBER -->
+                    <label> <input type="button" class="watchForChange" id="blueReset" value="RESET"></label><br><br>
+                <label><input  id="blueCharge" class="watchForChange"   name="blueCharge" min="0" max="100" type="range" value="0"></label></div><!-- blue RANGE -->
+            </div>
+
+            <div id="advantagePercent">00%</div>
+            <img class="advantageIndicator" id="downArrow" class="arrow" src="indicatorDown.png" />
+            <img class="advantageIndicator" id="upArrow" class="arrow" src="indicatorUp.png" />
+
+            <div id="trackerContainerRed">
+                <div value="red" class="colorValue" id="colorValueRed">
+                <label><input id="redCharge"  class="watchForChange"   name="redCharge" min="0" max="100" type="range" value="0"></label><br><br> <!-- red RANGE -->
+                <label><input id="redChargeVal" class="currentPercent" class="watchForChange"  type="number" name="redCharge" min="0" max="100" value="0"></label> <!-- red NUMBER -->
+                    <label> <input type="button" class="watchForChange" id="redReset"   value="RESET"></label></div>
+                <label><input id="timerStop" type="button" value="START"></label>
+                <h4 class="kritzIndicator" id="kritzRed">KRITZ</h4>
+
+            </div>
+        </div>
+        <p id="error"></p>
+        <div id="clearfixHack" value="test"><br></div>
+        <!--
+        //////////////////////////////////////////// CONTENT ////////////////////////////////////////////
+        -->
+        <div>
+            <span class="responsiveImageLink"  id="help"><p id="keep"><a id="reference" HREF = "contact.html"><img id="help" src="help.png" alt="Call For Medic"  width="100" height="auto"></a></p></span>
+            <span>
+            <p id="reference">Have questions? Need more examples? Looking for 1 on 1 training?
+            <br>
+            <a id="reference" HREF = "contact.html">Contact Us!</a>
+            <br>We're dedicated to expanding the player base and helping newer players! 
+            </p></span>
+            
+        </div>
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <nav>
+            <div id="phone">   
+                <a HREF = "index.html">     Home    </a>|
+                <a HREF = "scout.html">     Scout   </a>|
+                <a HREF = "soldier.html">   Soldier </a>|
+                <a HREF = "pyro.html">      Pyro    </a>|
+                <a HREF = "demo.html">      Demo    </a>|
+                <a HREF = "heavy.html">     Heavy   </a>|
+                <a HREF = "engie.html">     Engineer</a>|
+                <a HREF = "medic.html">     Medic   </a>|
+                <a HREF = "sniper.html">    Sniper  </a>|
+                <a HREF = "spy.html">       Spy      </a>|
+                <br>
+                <a HREF = "tips.html">      Tips    </a>|
+                <a HREF = "contact.html">   Contact </a>|
+                <a href="uberTracker.html">Uber Tracker</a>
+            </div>
+            <br>
+            <br>
+        </nav>
+        Eric Hinners 2019
+        <a href="mailto:EricHinners@gmail.com">EricHinners@gmail.com</a><br>
+        Copyright &copy; 2019 Valve Inc.<br> 
+        All Registered Trademarks and Characters<br id="minwrap"> of Team Fortress 2&#153; Belong to Valve Inc
+    </footer>
+        </div>
+</body>
+</html>

@@ -1,0 +1,926 @@
+*
+{
+    box-sizing:border-box;  
+        
+}
+header, main, nav, footer, figure, figcaption
+{
+    display: block;
+    font-family:monospace;
+}
+
+/* UBER TRACKER */
+
+#redirectToTracker
+{
+    cursor: pointer;
+}
+
+#redirectToTracker:hover
+{
+    background-color: rgba(249, 205, 140, 0.8);
+}
+
+#error
+{
+    color: red;
+}
+
+#trackerToggle
+{
+    cursor: pointer;
+}
+
+#trackerToggle:hover
+{
+    background-color: rgba(249, 205, 140, 0.8);
+}
+
+#howToUse
+{
+    cursor: pointer;
+}
+
+#howToUse:hover
+{
+    background-color: rgba(249, 205, 140, 0.8);
+}
+
+#timerRow
+{
+    float: right;
+}
+
+#wowPls
+{
+    font-size: 250%;
+    width: 1.7em;
+}
+
+#wowPlsTwo
+{
+    font-size: 250%;
+    width: 1.7em;
+}
+
+.chargeBar
+{
+    border-color: yellow;
+    border-style: solid;
+    border-width: 0.6em;
+}
+
+.currentPercent
+{
+    background-color: rgba(169, 169, 169, 0.56);
+    border-style: none;
+    font-size: 350%;
+    width: 2.6em;
+    display: inline-block;
+}
+
+.roundTimer
+{
+    background-color: rgba(169, 169, 169, 0.56);
+    border-style: none;
+    font-size: 350%;
+    width: 2.6em;
+    display: inline-block;
+}
+
+#roundTimerMinute
+{
+    float: right;
+    background-color: rgba(169, 169, 169, 0.56);
+    border-style: none;
+    font-size: 250%;
+    width: 2em;
+    display: inline-block;
+    border-style: none;
+}
+
+#roundTimerSecond
+{
+    float: right;
+    background-color: rgba(169, 169, 169, 0.56);
+    border-style: none;
+    font-size: 250%;
+    width: 2em;
+    display: inline-block;
+    border-style: none;
+}
+
+.arrow
+{
+    width: 15%;
+}
+
+#upArrow
+{
+    top: -6.1em;
+    right: -9em;
+}
+
+#downArrow
+{
+    top: 2.5em;
+    right: -5em;
+}
+
+.advantageIndicator
+{
+    float:right;
+    width: 15%;
+    position: relative;
+    display: inline;
+    opacity: 80%;
+}
+
+.kritzIndicator
+{
+    font-size: 150%;
+    border-style: solid;
+    width: 4em;
+    padding:0.3em;
+    text-align: center;
+    color: rgba(169, 169, 169, 0.73);
+    border-color: rgba(169, 169, 169, 0.73);
+    z-index: 1;
+}
+
+#timerStop
+{
+    float: right;
+    position: relative;
+    bottom: -1em;
+    background-color: rgba(169, 169, 169, 0.36);
+    font-size: 200%;
+    border-style: solid;
+}
+
+#advantagePercent
+{
+    top: -0.6em;
+    position: relative;
+    float: right;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 25%;
+    z-index: 3;
+    /*margin-right: 0.3em;*/
+}
+
+#trackerMasterContainer
+{
+    width: 27em;
+}
+
+#trackerContainerBlue
+{
+    background-color: #253e5d;
+    padding: 1em;
+}
+
+#trackerContainerRed
+{
+    background-color: #7a0022;
+    padding: 1em;
+}
+/* UBER TRACKER */
+#interactiveMenu
+{
+    display:block;
+    margin: auto auto;
+}
+
+#clearfixHack
+{
+    clear: both;
+    display: table;
+}
+
+#quizContent
+{
+    background-color: rgba(233, 233, 233, 0.47);
+    width: 60%;
+}
+
+.childDivStyle
+{
+    float: left;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1.9vw;
+    text-align: center;
+    height: 10em;
+}
+
+#leftArrow
+{
+    background-color: rgba(169, 169, 169, 0.65);
+    cursor: pointer;
+    padding-bottom: 4.2em;
+    padding-top: 4.2em;
+}
+
+#leftArrow:hover
+{
+    background-color: rgba(188, 188, 188, 0.65);
+}
+
+#rightArrow
+{
+    background-color: rgba(169, 169, 169, 0.65);
+    cursor: pointer;
+    padding-bottom: 4.2em;
+    padding-top: 4.2em;
+}
+
+#rightArrow:hover
+{
+    background-color: rgba(188, 188, 188, 0.65);
+}
+
+.responsiveImageLink
+{
+    opacity: 1;
+}
+
+.responsiveImageLink:hover
+{
+    opacity: 0.75;
+}
+
+#reference
+{
+    text-align:center;
+}
+#help
+{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+#keep
+{
+    background-color:rgba(234, 225, 186);
+}
+main
+{
+    min-height: 40em;
+}
+
+
+#mobileInput
+{
+    display:none;
+}
+
+#mobileInput {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+#description {
+  padding: 0 20px 20px;
+  display: none;
+}
+
+#mobileInput input:checked ~ #description {
+  display: block;
+}
+
+#pick:hover
+{
+    background-color:rgba(255, 242, 187, 0.91);
+}
+
+h2, h3
+{
+    text-align:center;
+    background-color:rgba(255, 242, 187, 0.91);
+    width: 40%;
+    border-style:hidden;
+    border-width:0.1%;
+    border-radius:30em;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+h1
+{
+    text-align:center;
+    font-size: 300%;
+    display: inline;
+    padding:0.3em;
+    background-color:rgba(169, 169, 169, 0.65);
+    border:2em;
+    border-style:hidden;
+    border-width:0.1%;
+    border-radius:0.2em;
+    vertical-align:2em;
+    margin-left:0.7em;
+}
+#homebutton
+{
+    margin-left:8.75em;
+    width: 12em;
+    height:2.5em;;
+    text-align: center;
+    background-color:rgba(153, 153, 144, 0.6);
+    
+}
+#fixer
+{
+    margin-left:6.4em;
+}
+main
+{
+    display: block;
+    padding-left: 11em;
+    float:center;
+    background:url("sidebar.jpg") left, rgba(255, 245, 203, 0.91) right;
+    background-repeat:repeat-y;
+    
+}
+header
+{
+    background-image:linear-gradient(to bottom right,#008484 ,#910000);
+}
+
+#sidebar
+{
+    text-align: center; 
+    padding: 0.6em; 
+    float:left;
+    width:117px;
+    display:inline;
+    background-color:rgb(206, 211, 186);
+    position: fixed;
+    height:52em;  
+    
+}
+#sidebar a 
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-style:outset;
+    border-width: 3.5px;
+    border-color:rgba(0, 0, 0, 0.36);
+    padding:0.9em;
+    background-color:;
+    border-radius:.6em;
+    margin-bottom: 0.8em;   
+}
+#sidebar a:hover     
+{
+    color:cornflowerblue;
+    border-color:#333333;
+    border-style:outset;
+    background-color:rgba(54, 54, 54, 0.51);
+    transition: background-color 0.5s ease-in;
+}
+#mobile
+{
+    display:none;
+    position: fixed;
+}
+
+footer
+{
+    text-align: center; 
+    font-size: small; 
+    padding: 1em 1em 1em 1em;
+    background-color:rgb(129, 129, 129);
+}
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:  550px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #333333;
+}
+#mobile
+{
+    display:none;
+}
+#desktop
+{ 
+    display:inline;
+}
+
+nav ul
+{
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+ nav a:link      
+{
+    color:black;
+}
+
+#floatright
+{
+    float: right;    
+    text-align: center;
+    background-color:rgba(169, 169, 169, 0.4);
+    width:350px;
+}
+#photomin
+{
+    float: right;    
+    text-align: center;
+    background-color:rgba(169, 169, 169, 0.4);
+    display:none;
+}
+#min
+{
+    display:none;
+}
+#max
+{
+    
+}
+#minwrap
+{
+    display:none;
+}
+#tiny
+{
+    display:none;
+}
+p
+{
+    background-color:rgba(255, 245, 203, 0.91);
+    padding:1em;    
+    margin-right:17.6em;
+}
+#minlist
+{
+    background-color:rgba(255, 245, 203, 0.91);
+    padding:1em;    
+    margin-right:17.6em;
+}
+figcaption
+{
+    font-size:small;
+}
+
+#pageNav
+{
+    font-size: 0.7em;
+    background-color:#e6bc7d;
+    text-align:center;
+    margin-right:60%;
+    font:darkblue;
+    border-style:hidden;
+    border-width:0.1%;
+    border-radius:30em;
+}
+#button
+{
+    text-align:center;
+    border-style:hidden;
+    border-width: 3.5px;
+    border-radius:.6em;
+    padding:1em;
+    padding-left:40%;
+    padding-right:30%    
+}
+#input
+{
+    background-color:beige;
+    padding:2em;
+    border-radius:.6em;
+    text-align:center;
+    color:rgba(150, 134, 114, 0.42);
+    font-weight:bolder;   
+    margin:0.5em;
+    margin-left:1.74em;
+    min-width:20em;
+}
+#submit
+{
+    background-color:rgba(143, 229, 186, 0.77);
+    padding:0.7em;
+    width:12em;
+    border-radius:.6em;
+    border-width:.2em;
+    border-color:#00ff27;
+    text-align:center;
+    color:rgba(83, 163, 108, 0.81);
+    font-weight:bolder;   
+    margin-left:6em;
+}
+#wraptwo
+{
+    
+    min-width: 22em;
+    max-width: 30em;
+    background-color:rgba(195, 195, 195, 0.19);
+}
+#pizaz
+{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:200%;
+    font-weight:600;
+    border-style:hidden;
+    border-width:0.3em;
+    border-radius:3em;
+}
+#minzaz
+{
+    display:none;
+}
+#form
+{
+    list-style:none;
+}
+@media only screen and (max-height:53em)
+{
+    #sidebar
+    {
+        position:relative;
+    }
+    #mobile
+    {
+        position:relative;
+    }
+    #homebutton
+    {
+        margin-left:10em;
+        width: 12em;
+        height:2.5em;;
+        text-align: center;
+        background-color:rgba(153, 153, 144, 0.6);
+    }
+    #fixer
+    {
+        margin-left:2em;
+    }
+    @media only screen and (max-width:35em)
+    {
+        #fixer
+        {
+           margin-left:1em;
+        }
+    }
+    @media only screen and (max-width:25em)
+    {
+        #fixer
+        {
+           margin-right:-3.5em;
+        }
+    }
+}
+@media only screen and (max-width:98em)
+{
+    h1
+    {
+        font-size: 300%;
+        vertical-align:1.9em;
+    }      
+}
+
+@media only screen and (max-width:88em)
+{
+    h1
+    {
+        font-size: 200%;
+        vertical-align:3.2em;
+    }      
+}
+@media only screen and (max-width:88em)
+{
+    #floatright
+    {
+        display:none;
+    }
+    #photomin
+    {
+        display:block;
+        width:109px;
+        margin-left:0em;
+    }
+    p
+    {
+        background-color:rgba(255, 245, 203, 0.91);
+        padding:1em;    
+        margin-right:2em;
+    }
+    h2,h3
+    {
+        font-size:larger;
+        width: 30em;
+    }
+    #pageNav
+    {
+        font-size:medium;
+        width: 36em;
+        margin-left:0em;
+        margin-right:2em;
+    }
+}
+@media only screen and (max-width:64em)
+{
+    h1
+    {
+        
+        font-size: 200%;        
+        vertical-align:3.2em;
+    }
+     
+    
+}
+@media only screen and (max-width:57em)
+{
+    h1
+    {
+        font-size: 170%;
+        vertical-align:4em;
+    }
+    
+     #min
+    {
+        display:inline-grid;
+    }
+    #max
+    {
+        display:none;
+    }
+    
+    
+}
+@media only screen and (max-width:50em)
+{
+    h2,h3
+    {
+        width: 25em;
+    }
+    #pageNav
+    {
+        width:30em;
+    }
+}
+@media only screen and (max-width:49em)
+{
+    #min
+    {
+        width:21%;
+    }
+}
+@media only screen and (max-width:47em)
+{
+    #min
+    {
+        display:none;
+    }
+    #tiny
+    {
+        margin-left:4%;
+        display:inline-grid;
+    }
+}
+@media only screen and (max-width:37.5em)
+{
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+   
+    h1
+    {
+        display: inline;
+        vertical-align:3.9em;
+    }
+    h2,h3
+    {
+        background-color:#e6bc7d;
+    }
+    
+    #pageNav
+    {
+        display:none;
+    }
+    #mobileInput
+    {
+        display:inline-grid;
+    }
+    #big
+    {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:35em)
+{
+
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+
+    #wrapper
+    {
+        width: 80%;
+        margin-left:0;
+        margin-right:0;
+        min-width:  20em;
+        max-width: 1280px;
+        box-shadow: 3px 3px 3px #333333;
+        float:none;
+    }
+    
+    header
+    {
+        width:123%;
+    }
+    main
+    {
+        width:123%;
+    }
+    #mincaption
+    {
+       
+    }
+    #minwrap
+    {
+        display:block;
+    }
+    #homebutton
+    {
+        margin-left:5.25em;
+    }
+    
+    #phone
+    {
+        display:none;
+    }
+    #sidebar
+    {
+        display:none;
+    }
+    #mobile
+    {
+        text-align: left; 
+        padding: 0.3em; 
+        float:left;
+        width:6em;
+        display:inline;
+        background-color:rgb(206, 211, 186);
+        height:33em;
+        padding-bottom:13em;
+        margin-top:-2.1em;
+    }
+    #mobile a 
+    {
+        display: block;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+        border-style:hidden;
+        padding:0em;
+        background-color:;
+        border-radius:50%;
+        margin-bottom:-1em;
+        margin-left:-0.65em;
+
+    }
+    #mobile a:hover     
+    {
+        margin-left: 1em;
+    } 
+    main
+    {
+        background:url("mobile.jpg") left, rgba(255, 245, 203, 0.91) right;
+        background-repeat:repeat-y;
+        padding-left: 7em;
+    }
+    p
+    {
+        margin-right:.3em;
+        width:96%;
+    }
+    h2,h3
+    {
+        margin-right:2.3em;
+        width:96%;
+        background-color:#e6bc7d;
+    }
+    #tiny
+    {
+        display:none;
+    }
+    footer
+    {
+        width:122.9%;
+    }
+    @media only screen and (min-height:53em)
+    {
+        #fixer
+        {
+            margin-left:3.4em;
+        }
+    }
+    
+}
+@media only screen and (max-width:27em)
+{
+    #photomin
+    {
+        display:none;
+    }
+
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:23.5em)
+{
+     #wrapper
+    {
+        min-width:  17.3em;
+    }
+    header
+    {
+        width:100%;
+    }
+    main
+    {
+        width:100%;
+    }
+   footer
+    {
+        width:100%;
+    }
+
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+}
+@media only screen and (max-width:30em)
+{
+    #input
+    {
+        width:30%;
+    }
+    #wraptwo
+    {
+        min-width: 15em;        
+    }
+    #pizaz
+    {
+        display:none;
+    }
+    #minzaz
+    {
+        display:inline-grid;
+        width:90%;
+        text-align:center;
+        font-weight:600;
+        border-style:hidden;
+        border-width:0.3em;
+        border-radius:3em;
+    }
+    #form
+    {
+        list-style:none;
+    }
+
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:28em)
+{
+    #input
+    {
+        min-width:12em;
+        margin-left:-2.3em;
+    }
+    #submit
+    {
+        margin-left:-2.3em;
+    }
+
+    #mobileInput input[type=radio] {
+        display: none;
+    }
+    
+}
+
